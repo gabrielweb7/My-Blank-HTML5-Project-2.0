@@ -8,6 +8,11 @@
 
 /* All */
 * { margin:0px; padding:0px; }
+*:focus { outline:0; }
+a, a:hover {  color:initial; }
+
+/* Variables */
+.clear { clear:both; }
 
 /* Tags */
 body { font-family: Arial; }
