@@ -12,6 +12,7 @@
 a, a:hover {  color:initial; }
 
 /* Variables */
+.align-middle { display: flex; align-items: center; }
 .clear { clear:both; }
 
 /* Tags */
