@@ -6,14 +6,29 @@
 	
 *******************************************/
 
+/* Load Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+/* Fonts */
+.font-pacifico { font-family: 'Pacifico', cursive; }
+
 /* All */
-* { margin:0px; padding:0px; line-height:120%; }
+* { margin:0px; padding:0px; }
 *:focus { outline:0; }
 a, a:hover {  color:initial; text-decoration:none; }
+
+/* Tags */
+body { font-family: 'Arial, Helvetica, sans-serif'; font-weight: normal; font-style: normal; line-height:120%; letter-spacing: normal; }
 
 /* Variables */
 .align-middle { display: flex; align-items: center; }
 .clear { clear:both; }
+
+/* Effects Hover */
+.fx-ease-out-250 { -webkit-transition: all 250ms ease-out; -moz-transition: all 250ms ease-out; -o-transition: all 250ms ease-out; transition: all 250ms ease-out; }
+.fx-ease-out-500 { -webkit-transition: all 500ms ease-out; -moz-transition: all 500ms ease-out; -o-transition: all 500ms ease-out; transition: all 500ms ease-out; }
+.fx-translatex-3:hover { transform: translateX(3px); }
+.fx-scale-0-9:hover { transform: scale(0.9);  }
 
 /* Tags */
 body { font-family: Arial; }
