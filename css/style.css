@@ -7,9 +7,9 @@
 *******************************************/
 
 /* All */
-* { margin:0px; padding:0px; }
+* { margin:0px; padding:0px; line-height:120%; }
 *:focus { outline:0; }
-a, a:hover {  color:initial; }
+a, a:hover {  color:initial; text-decoration:none; }
 
 /* Variables */
 .align-middle { display: flex; align-items: center; }
