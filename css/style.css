@@ -6,6 +6,8 @@
 	
 *******************************************/
 
+/* ~~~~~~~~~~~~~**~~~~~ Load Configurações ~~~~~**~~~~~~~~~~~~~ */
+
 /* Load Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 
@@ -17,82 +19,18 @@
 *:focus { outline:0; }
 a, a:hover {  color:initial; text-decoration:none; }
 
-/* Tags */
+/* Body */
 body { font-family: 'Arial, Helvetica, sans-serif'; font-weight: normal; font-style: normal; line-height:120%; letter-spacing: normal; }
-
-/* Variables */
-.hidden { display:none; }
-.no-select, img {  -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;  }
-
-.pd-t-0 { padding-top:0px; }
-.pd-t-30 { padding-top:30px; }
-.pd-t-60 { padding-top:60px; }
-.pd-t-100 { padding-top:100px; } 
-
-.pd-b-30 { padding-bottom:30px; }
-.pd-b-40 { padding-bottom:40px; }
-.pd-b-50 { padding-bottom:50px; }
-
-.pd-l-0 { padding-left:0px; }
-.pd-l-3 { padding-left:3px; }
-.pd-l-6 { padding-left:6px; }
-
-.pd-r-0 { padding-right:0px; }
-.pd-r-3 { padding-right:3px; }
-.pd-r-6 { padding-right:6px; }
-
-.mg-t-25  { margin-top: 25px; }
-.mg-t-46  { margin-top: 46px; }
-
-.mg-l-0 { margin-left: 0px; }
-.mg-l-40 { margin-left: 40px;  }
-
-.mg-r-40 { margin-right: 40px;  }
-
-.align-middle { display: flex; align-items: center; }
-.clear { clear:both; }
-
-/* Effects Hover */
-.fx-ease-out-250 { -webkit-transition: all 250ms ease-out; -moz-transition: all 250ms ease-out; -o-transition: all 250ms ease-out; transition: all 250ms ease-out; }
-.fx-ease-out-500 { -webkit-transition: all 500ms ease-out; -moz-transition: all 500ms ease-out; -o-transition: all 500ms ease-out; transition: all 500ms ease-out; }
-.fx-translatex-3:hover { transform: translateX(3px); }
-.fx-scale-0-9:hover { transform: scale(0.9);  }
-
-/* Backgrounds Images e Patterns */
-.pattern1 { background: url('../img/backgrounds/pattern1.png'); background-size:cover; background-position: center; }
-
-/* Colors and Backgrounds */
-.bg-gray-1 { background:#F8F8F8; }
-
-/* Buttons */
-.btnPlusLarge { margin-top:2px; margin-bottom:2px; background:#6FCCDD; color:white; font-size:16px; display:block; width:100%; max-width:370px; margin:0 auto; text-align:center; padding:17px 10px; border-radius:10px; -webkit-transition: all 250ms ease-out; -moz-transition: all 250ms ease-out; -o-transition: all 250ms ease-out; transition: all 250ms ease-out; }
-.btnPlusLarge:hover {  background:#2e8fa0; color:white; }
-.btnPlusLarge span { position:relative; top:1px; margin-left:5px; }
-
-
-
-
-/* ~~~~~~~~~~~~~**~~~~~ Examples ~~~~~**~~~~~~~~~~~~~ */
-
-
-/*
-	Section Slider Example com owl-carousel 
-*/
-/*
-	section.slider { position:relative; z-index:1; }
-	section.slider .owl-carousel { position:relative; }
-	section.slider .owl-carousel .owl-nav { position:absolute; top:40%; width:100%; }
-	section.slider .owl-carousel .owl-prev { position:absolute;  left:10%; border-radius: 100%;   -webkit-transition: all 500ms ease-out; -moz-transition: all 500ms ease-out; -o-transition: all 500ms ease-out; transition: all 500ms ease-out; }
-	section.slider .owl-carousel .owl-next { position:absolute;  right:10%; border-radius: 100%;  -webkit-transition: all 500ms ease-out; -moz-transition: all 500ms ease-out; -o-transition: all 500ms ease-out; transition: all 500ms ease-out;  }
-	section.slider .owl-carousel .owl-item img { height:375px; object-fit: cover; }
-*/
-
-
 
 
 /* ~~~~~~~~~~~~~**~~~~~ Inicio ~~~~~**~~~~~~~~~~~~~ */
 
 
+section.hello {  padding-top: 80px;  }
+section.hello h3 { text-align: center; font-size: 60px; }
+section.hello div.html5 { text-align:center; padding:50px; }
+section.hello div.html5 i { font-size:158px; color:red; }
+footer div.container {     text-align: center; padding-bottom: 50px; }
 
 /* Header */
 header { }
